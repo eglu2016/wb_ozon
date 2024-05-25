@@ -10,3 +10,12 @@
 - %JAVA_HOME%\bin
 - %M2_HOME%\bin
 
+В проект добавить 2 папки (in_files / out_files):
+- src/test/resources/in_files
+- src/test/resources/out_files
+
+В папку in_files добавить file data.txt (файл будет содержать входные данные для поиска)
+
+Например:
+- капсулы для стирки Ariel 15 капсул 
+- зубная паста lacalut актив 75 мл 2 шт
