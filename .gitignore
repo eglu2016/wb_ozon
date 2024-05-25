@@ -1,0 +1,11 @@
+.idea
+.allure
+*.iml
+target
+build
+logs
+*.log
+resolver-status.properties
+/allure-report/
+/src/test/resources/in_files/
+/src/test/resources/out_files/
