@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 
 import static com.codeborne.selenide.Selenide.open;
+import static io.qameta.allure.Allure.step;
 
 abstract public class BaseTest {
     public void setUp() {
@@ -34,6 +35,8 @@ abstract public class BaseTest {
 
     @AfterEach
     public void tearDown() {
-        Selenide.closeWebDriver();
+        step("Закрываем браузер", ()-> {
+            Selenide.closeWebDriver();;
+        });
     }
 }
